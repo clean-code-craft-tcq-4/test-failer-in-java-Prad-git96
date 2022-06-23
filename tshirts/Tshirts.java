@@ -5,7 +5,7 @@ public class Tshirts {
     
 
     public static void main(String[] args) { 
-        assert(TshirtsUtilities.getSize(0) == ErrorMessageConstants.T_INVALID_INPUT);
+
         assert(TshirtsUtilities.getSize(-37) == ErrorMessageConstants.T_INVALID_INPUT);
         assert(TshirtsUtilities.getSize(30) == ErrorMessageConstants.T_SIZE_UNAVAILABLE);
     	assert(TshirtsUtilities.getSize(31) == "XS");
