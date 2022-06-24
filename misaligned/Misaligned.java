@@ -15,16 +15,15 @@ public class Misaligned {
     }
     
     
-    static int printexpectedColorMap() {
+    static void printexpectedColorMap() {
         String majorColors[] = {"White", "Red", "Black", "Yellow", "Violet"};
         String minorColors[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
         int i = 0, j = 0;
         for(i = 0; i < 5; i++) {
             for(j = 0; j < 5; j++) {
-                System.out.printf("%d | %10s | %10s\n", i * 5 + j, majorColors[i], minorColors[i]);
+                System.out.printf("%d | %10s | %10s\n", (i * 5 + j)+1, majorColors[i], minorColors[i]);
             }
         }
-        return i * j;
     }
     
     public static void main(String[] args) { 
