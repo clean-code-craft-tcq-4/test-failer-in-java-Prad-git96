@@ -1,7 +1,10 @@
 package alerter.stubs;
-public class NetworkAlertStub {
+
+import alerter.services.NetworkAlerterService;
+
+public class NetworkAlertStub implements NetworkAlerterService{ 
     static final int THRESHOLD = 200;
-    public static int mockNetworkAlerts(float celcius) {
+    public  int getNetworkAlerts(float celcius) {
         System.out.println("ALERT: Temperature is " + celcius + " celcius");
         // Return 200 for ok
         // Return 500 for not-ok
