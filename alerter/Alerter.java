@@ -1,4 +1,4 @@
-import alerter.beans.NetworkAlerter;
+import alerter.alerterbeans.NetworkAlerter;
 
 public class Alerter {
     static int alertFailureCount = 0;
