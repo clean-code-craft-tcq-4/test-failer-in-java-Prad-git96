@@ -28,4 +28,5 @@ jobs:
     - name: alerter fail
       run: |
         cd alerter
-        java -ea Alerter.java
+        javac Alerter.java
+        java -ea Alerter
