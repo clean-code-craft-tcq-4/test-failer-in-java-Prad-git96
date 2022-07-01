@@ -13,6 +13,7 @@ public class Tshirts {
         assert(TshirtsUtilities.getSize(37) == "S");
         assert(TshirtsUtilities.getSize(38) == "M");
         assert(TshirtsUtilities.getSize(40) == "M");
+        assert(TshirtsUtilities.getSize(42) == "L");
         assert(TshirtsUtilities.getSize(43) == "L");
         assert(TshirtsUtilities.getSize(46) == "XL");
         assert(TshirtsUtilities.getSize(50) == "2XL");
