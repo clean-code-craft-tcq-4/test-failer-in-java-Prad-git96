@@ -24,7 +24,8 @@ jobs:
     - name: misaligned fail
       run: |
         cd misaligned
-        bash ../.github/workflows/expectfail.sh java -ea Misaligned.java
+        javac Misaligned.java
+        java -ea Misaligned
 
     - name: alerter fail
       run: |
