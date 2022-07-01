@@ -19,6 +19,6 @@ public class Tshirts {
         assert(TshirtsUtilities.getSize(54) == "3XL");
         assert(TshirtsUtilities.getSize(58) == ErrorMessageConstants.T_SIZE_UNAVAILABLE);
         
-        System.out.println("All is well (maybe!)");
+        System.out.println("All is well!");
     }
 }
