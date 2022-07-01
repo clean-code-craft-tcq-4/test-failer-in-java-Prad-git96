@@ -18,7 +18,8 @@ jobs:
     - name: tshirts fail
       run: |
         cd tshirts
-        java -ea Tshirts.java
+        javac Tshirts.java
+        java -ea Tshirts
 
     - name: misaligned fail
       run: |
